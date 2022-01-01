@@ -1,0 +1,19 @@
+.btn {
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-top: 15px;
+    background-color: rgb(25, 97, 231);
+    outline: none;
+    border: none;
+
+    a {
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        letter-spacing: 2px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

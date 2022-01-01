@@ -1,0 +1,23 @@
+$font-weights: (
+  "thin": 300,
+  "normal": 400,
+  "medium": 500,
+  "bold": 700,
+  "bolder": 900,
+);
+
+$font-sizes: (
+  "small": 1rem,
+  "normal": 1.5rem,
+  "large": 2.2rem,
+  "larger": 3.5rem,
+  "extralarge": 5rem,
+);
+
+@function font-weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@function font-sizes($font-size) {
+  @return map-get($font-sizes, $font-size);
+}

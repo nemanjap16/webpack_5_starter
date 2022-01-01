@@ -1,0 +1,11 @@
+@use '../utility/variables';
+@use '../utility/typography';
+@use '../utility/mixins';
+@use '../components/button';
+
+body {
+  background-color: variables.$bg;
+  @include mixins.display-center;
+  font-family: typography.$main-font;
+  // background: url('/public/images/img.jpg') no-repeat center center fixed;
+}
