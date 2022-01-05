@@ -47,7 +47,11 @@ const config = {
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|jpeg|webp)$/i,
-        type: 'asset/resource',
+        /*
+        sometimes won't work properly
+        with icons --> type: 'asset/resource'
+        */
+        type: 'asset',
       },
     ],
   },
